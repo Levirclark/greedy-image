@@ -1,0 +1,34 @@
+{
+  "name": "greedy-image",
+  "version": "1.0.0",
+  "description": "A react component which assists in requesting the minimum required image resolution. Use the same as an image, and it will append a 'height' and 'width' parameter onto the src url.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levirclark/greedy-image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levirclark/greedy-image/issues"
+  },
+  "homepage": "https://github.com/Levirclark/greedy-image#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.1",
+    "react-dom": ">=15.0.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.19",
+    "react": "^16.12.0",
+    "react-measure": "^2.3.0",
+    "react-sizeme": "^2.6.12",
+    "uuid": "^3.3.3"
+  }
+}
